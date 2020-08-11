@@ -41,7 +41,7 @@ The result will be printed in the console.
     000
     1, 0, 10
 
-\# expected result: 5
+\# expected result: `5`
 
 **Example 2:**
 
@@ -54,5 +54,5 @@ The result will be printed in the console.
     1010
     2, 2, 15
 
-\# expected result: 14
+\# expected result: `14`
 
