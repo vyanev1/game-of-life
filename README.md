@@ -6,8 +6,8 @@ Each cell on this grid can be either green (represented by 1) or red (represente
 
 **Rules that form the next generation:**	
 1. Each red cell that is surrounded by exactly 3 or exactly 6 green cells will also become green in the next generation.
-2. A red cell will stay red in the next generation if it has either O, 1, 2, 4, 5, 7 or 8 green neighbours.
-3. Each green cell surrounded by O, 1, 4, 5, 7 or 8 green neighbours will become red in the next generation.
+2. A red cell will stay red in the next generation if it has either 0, 1, 2, 4, 5, 7 or 8 green neighbours.
+3. Each green cell surrounded by 0, 1, 4, 5, 7 or 8 green neighbours will become red in the next generation.
 4. A green cell will stay green in the next generation if it has either 2, 3 or 6 green neighbours  
 
 **Important facts:**
@@ -30,6 +30,7 @@ The result will be printed in the console.
 
 
 **Example 1:**
+
 \# 3x3 grid, in the initial state, the second row is all 1s, how many times will the cell (1, 0) (top center) become green in 10 turns?
 
 \# Input:
@@ -43,6 +44,7 @@ The result will be printed in the console.
 \# expected result: 5
 
 **Example 2:**
+
 \# 4x4 grid. Input:
 
     4, 4
